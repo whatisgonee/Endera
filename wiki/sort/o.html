@@ -78,7 +78,7 @@
 			octokit.request('GET https://api.github.com/repos/whatisgonee/endera/contents/wiki').then(response => {
 				var elem = [];
 				for(var i = 0; i < response.data.length; i++) {
-					if(response.data[i].name.startsWith('a') && response.data[i].name.endsWith('.html')) {
+					if(response.data[i].name.startsWith('o') && response.data[i].name.endsWith('.html')) {
 						elem.push(response.data[i].name);
 					}
 				}
