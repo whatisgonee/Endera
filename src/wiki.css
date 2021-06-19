@@ -74,6 +74,7 @@ a:hover::after {
 }
 
 .text {
+	position: relative;
 	margin-top: -25px;
 }
 
@@ -85,13 +86,50 @@ a:hover::after {
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
+	/*position: absolute;*/
+	bottom: 100vh;
+	font-size: 15px;
+	color: #c9c9c9;
 }
 
 .text-footer {
+	margin-top: 8px;
 	padding-bottom: 25px;
-	margin-top: -30px;
 	color: #c9c9c9;
 	font-size: 15px;
+}
+
+#contentsTable {
+	display: inline-block;
+	border: 1px solid #a5a5a5;
+	width: max-content;
+	text-align: left;
+}
+
+.contentLi {
+	margin-top: -12px;
+}
+
+.contentOl {
+	margin-left:-20px;
+	padding-right:8px;
+}
+
+.liLink {
+
+}
+
+.liLink::after {
+	margin-top: 23px;
+}
+
+.innerDivider {
+	margin-top: -30px;
+	margin-left: -8px;
+	border-top: 1px solid #787878;
+	width: 100vw;
+}
+
+.top {
+	margin-top: 20px;
 }
