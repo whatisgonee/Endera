@@ -1,24 +1,37 @@
 ===
-Chapter I: Brief History
+Chapter I: A Brief History
 ---
 In this chapter, we're going to talk about the history of our world, especially, the journey from polluting and killing our home planet, to a space empire, which we live in. 
 
 ---
 
-*The Moon*
+*The Moon*(color=Khaki;Yellow)
 ---
 
 It was a very difficult, yet exciting path to becoming a space empire. It all started in 20th July, 1969, when the first man landed on the Moon. The Moon means a lot to us, it is our playground, where we can test and develop new technology. Because of the Moon, we managed to colonise Mars without too many casualties. Let's go through the history of the Moon.
 
+
 In 2045, the USA, together with Russia, China and the UK, decided to build a moon base. The plan was to create a small base for the first colonisers, which would arrive in 2055. It will have a storage, containing food, oxygen, water, and other equipment, bedrooms, where the colonisers will temporarily live, kitchen and a gym. The base will be used as a temporary shelter for researches, who will be staying on Moon for a few days. The project started in May, 2045, and was finished, as planned, in September, 2054, after almost a decade. The base was called 'Small Steps'. It will later become the first ever permanent moon base, where researches, engineers and astronauts will live. It was the first step to exploring and colonising our solar system. 
+
 
 In 2078, NASA decided to make a moon station, an automatic station which will receive and launch spaceships from the Moon to Earth, and vice versa. The project was planned to finish in 2083, but because of the budget cuts, it was finished after nearly a decade, in 2085. The station, which is now known as The Launcher, was first used to slow down automatic ships, which delivered food and water to the inhabitants on the Moon, and then launch them back to Earth. This scheme required less fuel, since ships only had to get to the Launcher, and then slow down when approaching Earth. The project was a success, and NASA built another Launcher on Earth, with the same purpose. It is known as L2 (Launcher 2).
 
+
 In 2103, the moon base expanded rapidly, covering more and more territory on the Moon. It started building its own infrastructure, like mining iron, magnesium, and other metal, which were quite rare on Earth. Small Steps declared their independence in 2117, when they started exporting minerals to Earth. The population mainly consisted of highly trained specialist, like botanist, physicist, astronomers, engineers and biologist. They laid the first brick into the Moon we know today. They developed infrastructure, which started producing food, water and oxygen, independently from Earth. Soon enough, rich people started moving to the Moon. It became the first ever country outside Earth's atmosphere. 
+
 
 This concludes the history of the Moon of late 21st century to early 22nd. Humanity was slowly maturing and getting out of its lullaby. But the great challenge was still ahead. Our ancestors will soon encounter another problem, and this time, it can destroy everything we built.
 
 ---
 
-*The Asteroid, or how we nearly died*
+*The Asteroid, or how we nearly died*(color=DarkGrey;DimGrey)
+---
+
+It was the year 2119, a few years after Small Steps, which renamed itself into Monorio in 2118, declared its independence, a new threat appeared. An asteroid. At first, it looked just like all the other ones, slowly orbiting the Sun. NASA gave it a name of 1094 A64 when it first observed it, but the media called it simple, The Asteroid. A64, is a large, rocky asteroid, that was floating in space, when suddenly, another, much larger asteroid, hit it, changing its course. A64 started flying towards us, so NASA decided to calculate its trajectory. Only then, we realised that A64 is flying towards the Moon. It wouldn't be very dangerous, if A64 wasn't going to hit the Moon's Launcher and then destroy the communication centre. Of course, Small Steps was built with the intention to withstand hits like these, since the Moon doesn't have the atmosphere, so asteroids and meteoroids don't burn like on Earth, but A64 was so strong, that it could destroy the communication block, with the antenna, completely. This would leave Monorio alone, unable to contact Earth. It would also mean that ships would not be able to fly from the Moon, since the Launcher will also be destroyed in the process. Monorio, together with NASA, started to think. The easiest way to avoid this dangerous situation, is to change the asteroids trajectory, so it would hit another, empty, part of the Moon. Small Steps started building a rocket, which, theoretically, will change the asteroids trajectory, by exploding near it. What Small Steps didn't count, is that A64 was mainly made of rock, so it didn't withstand the explosion, dividing into smaller pieces. A rain of rocks started on the Moon, destroying, not only the Launcher and the communication centre, but other vital buildings, like the storage and the greenhouse. This left the Moon with nothing. They had no food, no equipment and no communication. This incident lead us build more secure interplanetary bases in the future. The inhabitants of Small Steps however did not die. It was a tough project, but NASA was able to quickly build an old designed rocket, which used much more fuel, to carry some food and oxygen to the Moon. The rocket was called Carrier-1, and was used multiple times to carry stocks, including equipment, oxygen, food and materials to rebuild the Launcher and other compartments. It also evacuated unnecessary people, like botanist and researches for the time being, while Small Steps was being repaired. 
+
+This incident almost destroyed our first moon base, and gave us a warning, so we would be ready the next time it happens.
+
+---
+
+*Mars is here*(color=FireBrick;FireBrick)
 ---
