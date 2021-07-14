@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: black;
+				color: white;
+				font-family: courier;
+			}
+			.change {
+				border: solid 1px white;
+				background-color: transparent;
+				color: white;
+				cursor: pointer;
+				border-radius: 5px;
+				width: 100px;
+				height: 30px;
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="changeBtn" class="change">Change theme</button>
+		<div id="article"></div>
+	</body>
+
+	<script type="module">
+		var urlParams = new URLSearchParams(window.location.search);
+		var isWhite = false;
+		
+		var xmlHttp = new XMLHttpRequest();
+		xmlHttp.open( "GET", "https://raw.githubusercontent.com/whatisgonee/endera/main/text/" + urlParams.get('src') + ".txt", false );
+		xmlHttp.send( null );
+		document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
+		
+		document.getElementById("changeBtn").addEventListener('click', change);
+		
+		function parse(original) {
+			var finished = "";
+			var tokens = original.split(/\r?\n/);
+			for(var i = 0; i < tokens.length; i++) {
+				if(tokens[i] == "---") {
+					finished += "<hr>";
+				} else if(tokens[i] == "===") {
+					finished += "<h1>" + tokens[i + 1] + "</h1>";
+					i += 2;
+				} else if(/\*(.*?)\*/.test(tokens[i])) {
+					if(/color=(.*)/.test(tokens[i])) {
+						var matched = tokens[i].match(/\(color=(.*);(.*)/);
+						if(isWhite) {
+							finished += "<h2 style=\"color: " + tokens[i].substring(tokens[i].match(/;(.*)/).index + 1, tokens[i].length-1) + "\">" + tokens[i].substring(1, tokens[i].length - matched[0].length-1) + "</h2>";
+						}
+						else { 
+							console.log(matched[0]);
+							finished += "<h2 style=\"color: " + tokens[i].substring(matched.index + 7, tokens[i].match(/;(.*)/).index) + "\">" + tokens[i].substring(1, tokens[i].length - matched[0].length-1) + "</h2>";
+						}
+					} else {
+						finished += "<h2>" + tokens[i].substring(1, tokens[i].length - 1) + "</h2>";
+					}
+				} else if(!tokens[i] == "") {
+					finished += "<p>" + tokens[i] + "</p>";
+				}
+			}
+			
+			return finished;
+		}
+		
+		function change() {
+			var body = document.getElementsByTagName("body")[0];
+			var button = document.querySelector(".change");
+			if(isWhite) {
+				isWhite = !isWhite;
+				body.style.color = "white";
+				body.style.backgroundColor = "black";
+				button.style.border = "solid 1px white";
+				button.style.color = "white";
+			} else if(!isWhite) {
+				isWhite = !isWhite;
+				body.style.color = "black";
+				body.style.backgroundColor = "white";
+				button.style.border = "solid 1px black";
+				button.style.color = "black";
+			}
+			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
+		}
+	</script>
+</html>
