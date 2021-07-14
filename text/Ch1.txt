@@ -5,7 +5,7 @@ In this chapter, we're going to talk about the history of our world, especially,
 
 ---
 
-*The Moon*(color=Khaki;Yellow)
+*The Moon*(color=Khaki;#c9a200)
 ---
 
 It was a very difficult, yet exciting path to becoming a space empire. It all started in 20th July, 1969, when the first man landed on the Moon. The Moon means a lot to us, it is our playground, where we can test and develop new technology. Because of the Moon, we managed to colonise Mars without too many casualties. Let's go through the history of the Moon.
