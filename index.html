@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Endera</title>
-    <link rel="stylesheet" href="src/style.css"/>
-  </head>
-  
-  <body>
-    <div id="main">
-      <h1 style="font-size: 50px">Endera</h1>
-      <h2 style="margin-top: -50px">A world of imagination</h2>
-      <h2>Have you ever wondered, what magic and science could achieve together?<br>Me too. Let's find out</h2>
-      <div id="button-array">
-        <a href="https://whatisgonee.github.io/endera" class="link">Home</a>
-        <a href="https://whatisgonee.github.io/endera/wiki/wiki.html" class="link">Wiki</a>
-        <a href="https://whatisgonee.github.io/endera/wiki/random.html" class="link">Random</a>
-      </div>
-    </div>
-  </body>
+	<head>
+		<style>
+			body {
+				background-color: black;
+				color: white;
+				font-family: courier;
+			}
+			.change {
+				border: solid 1px white;
+				background-color: transparent;
+				color: white;
+				cursor: pointer;
+				border-radius: 5px;
+				width: 100px;
+				height: 30px;
+				float: right;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button id="changeBtn" class="change">Change theme</button>
+		<div>
+			<h1>Endera</h1>
+			<hr>
+			<p>Endera is a universe. Not ours, of course, but it is a universe in my head. A universe which I build. A universe where even the weirdest stories can happen. It is my universe, and I welcome you to read about it. I write chapters, just like in a book, which tell you about different topics. Do you know what's null matter is? Or how the null breakout happened? Or how the humanity almost died from a small asteroid? If you're interested, then <a href="view/render.html?src=Ch1">go ahead</a>.</p>
+		</div>
+	</body>
+	
+	<script type="module">
+		var isWhite = false;
+		document.getElementById("changeBtn").addEventListener('click', change);
+		function change() {
+			var body = document.getElementsByTagName("body")[0];
+			var button = document.querySelector(".change");
+			if(isWhite) {
+				isWhite = !isWhite;
+				body.style.color = "white";
+				body.style.backgroundColor = "black";
+				button.style.border = "solid 1px white";
+				button.style.color = "white";
+			} else if(!isWhite) {
+				isWhite = !isWhite;
+				body.style.color = "black";
+				body.style.backgroundColor = "white";
+				button.style.border = "solid 1px black";
+				button.style.color = "black";
+			}
+		}
+	</script>
 </html>
