@@ -42,6 +42,7 @@
 				if(tokens[i] == "---") {
 					finished += "<hr>";
 				} else if(tokens[i] == "===") {
+					document.title = tokens[i + 1];
 					finished += "<h1>" + tokens[i + 1] + "</h1>";
 					i += 2;
 				} else if(/\*(.*?)\*/.test(tokens[i])) {
