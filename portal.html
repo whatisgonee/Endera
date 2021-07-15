@@ -31,7 +31,12 @@
 		var xmlHttp = new XMLHttpRequest();
 		xmlHttp.open( "GET", "https://raw.githubusercontent.com/whatisgonee/endera/main/text/" + urlParams.get('src') + ".txt", false );
 		xmlHttp.send( null );
-		document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
+		if(xmlHttp.status == "404") {
+			document.getElementById("article").innerHTML = "<h1>404: Not Found</h1><hr><p>It looks like something went wrong, sorry! The chapter is either not finished or doesn't exist. <a href=\"https://whatisgonee.github.io/endera\">Go home?</a></p>";
+			document.title = "404: Not Found"
+		} else {
+			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
+		}
 		
 		document.getElementById("changeBtn").addEventListener('click', change);
 		
