@@ -61,7 +61,7 @@
 				} else if(/\{(.*)\}/.test(tokens[i])) {
 					finished += "<footnote>" + tokens[i].match(/\{(.*)\}/)[1] + "</footnote>";
 				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
-					finished += "<a style=\"float:right\" href=\"" + tokens[i].match(/\((.*)\)/)[1] + "\">" + tokens[i].match(/\([.*]\)/)[1] + "</a>";
+					finished += "<a style=\"float:right\" href=\"" + tokens[i].match(/\((.*)\)/)[1] + "\">" + tokens[i].match(/\[(.*)\]/)[1] + "</a>";
 				} else if(!tokens[i] == "") {
 					finished += "<p>" + tokens[i] + "</p>";
 				}
