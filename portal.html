@@ -58,6 +58,8 @@
 					} else {
 						finished += "<h2>" + tokens[i].substring(1, tokens[i].length - 1) + "</h2>";
 					}
+				} else if(/\{(.*)\}/.test(tokens[i])) {
+					finished += "<footnote>" + tokens[i].match(/\{(.*)\}/)[1] + "</footnote>";
 				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
 					finished += "<a style=\"float:right\" href=\"" + tokens[i].match(/\((.*)\)/)[1] + "\">" + tokens[i].match(/\([.*]\)/)[1] + "</a>";
 				} else if(!tokens[i] == "") {
