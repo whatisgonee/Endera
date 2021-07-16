@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
 		<style>
 			body {
 				background-color: black;
@@ -30,7 +31,9 @@
 	</head>
 	<body>
 		<button id="changeBtn" class="change">Change theme</button>
-		<div id="article"></div>
+		<div id="article">
+			<div id="contents"></div>
+		</div>
 	</body>
 
 	<script type="module">
@@ -60,18 +63,8 @@
 					finished += "<h1>" + tokens[i + 1] + "</h1>";
 					i += 2;
 				} else if(/\*(.*?)\*/.test(tokens[i])) {
-					if(/color=(.*)/.test(tokens[i])) {
-						var matched = tokens[i].match(/\(color=(.*);(.*)/);
-						if(isWhite) {
-							finished += "<h2 style=\"color: " + tokens[i].substring(tokens[i].match(/;(.*)/).index + 1, tokens[i].length-1) + "\">" + tokens[i].substring(1, tokens[i].length - matched[0].length-1) + "</h2>";
-						}
-						else { 
-							console.log(matched[0]);
-							finished += "<h2 style=\"color: " + tokens[i].substring(matched.index + 7, tokens[i].match(/;(.*)/).index) + "\">" + tokens[i].substring(1, tokens[i].length - matched[0].length-1) + "</h2>";
-						}
-					} else {
-						finished += "<h2>" + tokens[i].substring(1, tokens[i].length - 1) + "</h2>";
-					}
+					var content = tokens[i].substring(1, tokens[i].length - 1);
+					finished += "<h2 id=\"" + id(content) + "\">" + content + "</h2>";
 				} else if(/\{(.*)\}/.test(tokens[i])) {
 					finished += "<footnote>" + tokens[i].match(/\{(.*)\}/)[1] + "</footnote>";
 				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
@@ -101,6 +94,22 @@
 				button.style.color = "black";
 			}
 			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
+		}
+		
+		function id(string) {
+			var finished = "";
+			for(var i = 0; i < string.length; i++) {
+				if(string[i] == " ") {
+					finished += "_";
+				} else if(string[i] == "'") {
+					finished += "";
+				} else if(string[i] == ",") {
+					finished += "";
+				} else {
+					finished += string[i];
+				}
+			}
+			return finished;
 		}
 	</script>
 </html>
