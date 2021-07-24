@@ -1,48 +1,39 @@
 ===
-Chapter II: Chronicles after A64
+Chapter II: Actions have consequences
 ---
-In this chapter, we're going to look at the diaries of the survivors after the A64 crashed on the Moon, destroying some vital blocks of Small Steps.
-
----
-
-*12:57*
----
-
-12:57:23 - Communication block damaged. Human intervention required.
-12:57:23 - Tunnel B21 damaged. Human intervention required.
-12:57:24 - Communication block destroyed. Blocking tunnel B23. Human intervention required.
-12:57:24 - Generator C1 damaged. Human intervention required.
-12:57:25 - Generator C1 destroyed. Turning on emergency power. Human intervention required.
-12:57:25 - Tunnel B21 destroyed. Blocking entrance. Human intervention required.
-12:57:25 - Oxygen generator destroyed. Turning on emergency reserve. Human intervention required.
-12:57:25 - 23% systems damaged. Evacuation required.
-12:57:26 - Tunnel A2 destroyed. Blocking entrance. Human intervention required.
-12:57:26 - Living Block D damaged. Immediate evacuation required.
-12:57:26 - Main Laboratory damaged. Preserving important equipment.
-12:57:26 - Failed. Main Laboratory destroyed. Human intervention required.
-12:57:27 - Emergency shuttle 2 destroyed. Human intervention required.
-12:57:31 - Emergency generator damaged. Immediate intervention required.
-12:57:34 - Warning. Not enough power. Human intervention required. Preserving power.
-12:57:41 - Captain Noel Ardon blocked Living Block A. Turning on ventilation system.
-12:57:43 - Captain Noel Ardon announced: "Block compartments with survivors.".
-12:57:44 - Engineer Arna Itan blocked Engineering Room B. Turning on ventilation system.
-12:57:45 - Researcher Ortondo Neil blocked Additional Laboratory. Turning on ventilation system.
-12:57:46 - Captain Noel Ardon turned on Outer Drone 1.
-12:57:47 - Captain Noel Ardon turned on Inner Drone 2.
-12:57:48 - Captain Noel Ardon messaged: "Arna, you control inner drone, I control outer. Look for survivors.".
-12:57:50 - Engineer Arna Itan messaged: "Got it.".
-12:57:53 - Living Block B damaged. Human intervention required.
-12:57:59 - Emergency generator destroyed. Immediate human intervention required. 
-12:58:00 - Turning of all systems.
+In this chapter, we're going back on Earth. Let's see how things are going.
 
 ---
 
-*The diary of Noel Ardon*
+*It's kinda hot*
 ---
 
-Writing Table of Noel Ardon:
-7th September, 2119: It's 8 in the morning. Today we're going to blow up that asteroid once and for all. I hope this will work. I've been thinking yesterday, what if this won't help? I mean, NASA said that blowing up A64 will change its trajectory, but what if the asteroid will just fall apart? What if little meteors will fall on the Moon and destroy everything? I hope this will work.
+Whew, it's pretty hot in here don't you guys think? Almost like all this pollution, cars, agriculture, electricity and factories contribute to the greenhouse gases. But that can't happen, can it? We can do whatever we want, actions don't have consequences. Right?
 
+The year is 2021, the temperatures globally are rising. Heatwaves and extreme weather is becoming the new standard. Humanity only now realizes that they have to act now. In 2022, a research group from Australia discovered a new fungi. A fungi that can destroy plastic. This discovery relaunched some older projects on making a way to dispose plastic safely, and together with researches from all over the world, J. Auntsie created a project called See Clean Sea. SCS's goal was to clean the oceans and seas from plastic by releasing enzymes, produced by fungi. This lead to a much more cleaner seas and oceans and healthier marine life, though it had an impact on ecosystem. The enzymes also destroyed some of the plankton and dead fish, which caused a scarcity of food underwater, but it was fixed by manually putting plankton and other microorganisms. It was the start of a new era.
 
+The year is 2025, four years after the SCS project was launched. Now we have to solve a new problem - global warming. This time, the solution won't be as easy as it was with SCS. First, we have to reduce the amount of greenhouses we produce, then, we have to remove the already released CO2 out of the atmosphere. It's just two steps, but these two steps are much more complicated than they look like. The first ever machine that was able to suck out the greenhouse gases, and then store them in containers, was invented in 2026, and later was mass produced to start the cleaning of our atmosphere. The amount of these machines was enormous, since they had to cover our annual CO2 income and also slowly remove the old one from the air. The project was semi successful, due to the constant increase in the production and release of the CO2 and other gases, but it did help us by giving more time to come up with a new idea and make that idea come to life. And we had a plan.
+
+On the 12th of December, 2026, the United Nations approved the International Green Project or IGP for short. The IGP was aimed to switch 50% of infrastructure to green energy in every country. The deadline was set at the 12th of December, 2031 - 5 years. The UN also ruled that developed countries must help third world and poor countries financially and technologically. Of course, not everyone followed this project, but most countries started using green energy, including nuclear, since it is also much cleaner than the fossils. This greatly reduced our contribution to global warming, but there was still much ahead.
 
 ---
+
+*Need for Green*
+---
+
+We need to convert all of our energy to clean one. How do we do that? That's an enormous task! But humanity always liked challenges.
+
+It's 2028! Happy New Year! But, why is it not snowing? Welp, time to sell dry globes without the snow. Humanity is on the edge of a global catastrophe and it needs to act fast. The International Green Project is still going on, but that's not enough. We need to restore the damaged ecosystems, but unfortunately, the big, bad corporations don't want to do it. So the EU made them. On the 11th of January, 2028, the EU ruled that every corporation that operates inside and outside of Europe, has to pay a tax for every square kilometer of their land that is used for factories and storages. By collecting this tax, the EU started replanting forests, restoring sea shores and other ecosystems. Slowly, the amount of CO2 was being reduced. 
+
+Is that all? No! Cars are getting BANNED! Yes, you heard it right, we're banning cars! People will complain, but UK started to slowly ban cars in the year of 2028. They're making roads more bus-friendly, increasing the bus rate and raising taxes on cars. This method will become a popular strategy on withdrawal from personal vehicles in 2028-2033. 
+
+Humanity is finally releasing that _actions have consequences_ and is setting itself on a great path.
+
+---
+
+**Wish to help? [Suggest an improvement or report a bug!](https://github.com/whatisgonee/endera/issues)**
++=+
++=+
+
+{Copyright© whatisgonee 2021}
+[!Next Chapter →](https://whatisgonee.github.io/endera/portal.html?src=Ch3)
