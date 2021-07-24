@@ -50,6 +50,8 @@
 			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
 		}
 		
+		//document.getElementById("article").innerHTML = parse(``);
+		
 		document.getElementById("changeBtn").addEventListener('click', change);
 		
 		function parse(original) {
@@ -62,15 +64,35 @@
 					document.title = tokens[i + 1];
 					finished += "<h1>" + tokens[i + 1] + "</h1>";
 					i += 2;
+				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
+					var text = tokens[i].match(/\[(.*)\]/);
+					var link = tokens[i].match(/\((.*)\)/);
+					
+					if(tokens[i].match(/\[(.*)\]/)[1].startsWith("!")) {
+						finished += "<a style=\"float:right\" href=\"" + link[1] + "\">" + text[1].substring(1, text[1].length) + "</a>";
+					} else {
+						if(tokens[i].startsWith("**") && tokens[i].endsWith("**")) {
+							finished += "<p><strong>" + tokens[i].substring(2, text.index);
+							finished += "<a target=\"_blank\" href=\"" + link[1] + "\">" + text[1] + "</a></strong></p>";
+						} else {
+							finished += "<p>" + tokens[i].substring(0, text.index);
+							finished += "<a href=\"" + link[1] + "\">" + text[1] + "</a></p>";
+						}
+					}
 				} else if(/\*(.*?)\*/.test(tokens[i])) {
 					var content = tokens[i].substring(1, tokens[i].length - 1);
 					finished += "<h2 id=\"" + id(content) + "\">" + content + "</h2>";
 				} else if(/\{(.*)\}/.test(tokens[i])) {
 					finished += "<footnote>" + tokens[i].match(/\{(.*)\}/)[1] + "</footnote>";
-				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
-					finished += "<a style=\"float:right\" href=\"" + tokens[i].match(/\((.*)\)/)[1] + "\">" + tokens[i].match(/\[(.*)\]/)[1] + "</a>";
+				} else if(tokens[i] == "+=+") {
+					finished += "<br>";
 				} else if(!tokens[i] == "") {
-					finished += "<p>" + tokens[i] + "</p>";
+					if(/_(.*)_/.test(tokens[i])) {
+						var before = tokens[i].substring(0, tokens[i].match(/_(.*)_/).index);
+						finished += "<p>" + tokens[i].substring(0, tokens[i].match(/_(.*)_/).index) + "<i>" + tokens[i].match(/_(.*)_/)[1] + "</i>" + tokens[i].substring(before.length + tokens[i].match(/_(.*)_/)[0].length, tokens[i].length) 
+					} else {
+						finished += "<p>" + tokens[i] + "</p>";
+					}
 				}
 			}
 			
