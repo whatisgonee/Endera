@@ -62,4 +62,4 @@ You're probably wondering, "How much is there?", and I will answer you: "A lot".
 +=+
 
 {Copyright© whatisgonee 2021}
-[Next Chapter →](https://whatisgonee.github.io/endera/portal.html?src=Ch2)
+[!Next Chapter →](https://whatisgonee.github.io/endera/portal.html?src=Ch2)
