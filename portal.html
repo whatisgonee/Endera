@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<style>
 			body {
 				background-color: black;
@@ -15,10 +14,11 @@
 				color: white;
 				cursor: pointer;
 				border-radius: 5px;
-				width: 100px;
+				width: 120px;
 				height: 30px;
 				float: right;
 				white-space: nowrap;
+				margin-left: 8px;
 			}
 			a {
 				color: inherit;
@@ -29,109 +29,60 @@
 			}
 		</style>
 	</head>
+
 	<body>
 		<button id="changeBtn" class="change">Change theme</button>
-		<div id="article">
-			<div id="contents"></div>
+		<button id="languageBtn" class="change">RU</button>
+		<div>
+			<h1>Endera</h1>
+			<hr>
+			<p id="info">Endera is a universe. Not ours, of course, but it is a universe in my mind. A universe which I build. A universe where even the weirdest stories can happen. It is my universe, and I welcome you to read about it. I write chapters, just like in a book, which tell you about different topics. Do you know what a wonder forest is? Or how we almost blew up the Sun? Or how we saved our home planet at the last possible moment? If you're interested, then <a href="view/render.html?src=Ch1&lng=eng">go ahead</a>.</p>
 		</div>
 	</body>
-
+	
 	<script type="module">
-		var urlParams = new URLSearchParams(window.location.search);
 		var isWhite = false;
-		
-		var xmlHttp = new XMLHttpRequest();
-		xmlHttp.open( "GET", "https://raw.githubusercontent.com/whatisgonee/endera/main/text/" + urlParams.get('src') + ".txt", false );
-		xmlHttp.send( null );
-		if(xmlHttp.status == "404") {
-			document.getElementById("article").innerHTML = "<h1>404: Not Found</h1><hr><p>It looks like something went wrong, sorry! The chapter is either not finished or doesn't exist. <a href=\"https://whatisgonee.github.io/endera\">Go home?</a></p>";
-			document.title = "404: Not Found"
-		} else {
-			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
-		}
-		
-		//document.getElementById("article").innerHTML = parse(``);
-		
+		var language = "english";
 		document.getElementById("changeBtn").addEventListener('click', change);
-		
-		function parse(original) {
-			var finished = "";
-			var tokens = original.split(/\r?\n/);
-			for(var i = 0; i < tokens.length; i++) {
-				if(tokens[i] == "---") {
-					finished += "<hr>";
-				} else if(tokens[i] == "===") {
-					document.title = tokens[i + 1];
-					finished += "<h1>" + tokens[i + 1] + "</h1>";
-					i += 2;
-				} else if(/\[(.*)\]\((.*)\)/.test(tokens[i])) {
-					var text = tokens[i].match(/\[(.*)\]/);
-					var link = tokens[i].match(/\((.*)\)/);
-					
-					if(tokens[i].match(/\[(.*)\]/)[1].startsWith("!")) {
-						finished += "<a style=\"float:right\" href=\"" + link[1] + "\">" + text[1].substring(1, text[1].length) + "</a>";
-					} else {
-						if(tokens[i].startsWith("**") && tokens[i].endsWith("**")) {
-							finished += "<p><strong>" + tokens[i].substring(2, text.index);
-							finished += "<a target=\"_blank\" href=\"" + link[1] + "\">" + text[1] + "</a></strong></p>";
-						} else {
-							finished += "<p>" + tokens[i].substring(0, text.index);
-							finished += "<a href=\"" + link[1] + "\">" + text[1] + "</a></p>";
-						}
-					}
-				} else if(/\*(.*?)\*/.test(tokens[i])) {
-					var content = tokens[i].substring(1, tokens[i].length - 1);
-					finished += "<h2 id=\"" + id(content) + "\">" + content + "</h2>";
-				} else if(/\{(.*)\}/.test(tokens[i])) {
-					finished += "<footnote>" + tokens[i].match(/\{(.*)\}/)[1] + "</footnote>";
-				} else if(tokens[i] == "+=+") {
-					finished += "<br>";
-				} else if(!tokens[i] == "") {
-					if(/_(.*)_/.test(tokens[i])) {
-						var before = tokens[i].substring(0, tokens[i].match(/_(.*)_/).index);
-						finished += "<p>" + tokens[i].substring(0, tokens[i].match(/_(.*)_/).index) + "<i>" + tokens[i].match(/_(.*)_/)[1] + "</i>" + tokens[i].substring(before.length + tokens[i].match(/_(.*)_/)[0].length, tokens[i].length) 
-					} else {
-						finished += "<p>" + tokens[i] + "</p>";
-					}
-				}
-			}
-			
-			return finished;
-		}
-		
+		document.getElementById("languageBtn").addEventListener('click', languageChange);
 		function change() {
 			var body = document.getElementsByTagName("body")[0];
-			var button = document.querySelector(".change");
+			var button = document.getElementById("changeBtn");
+			var button2 = document.getElementById("languageBtn");
 			if(isWhite) {
 				isWhite = !isWhite;
 				body.style.color = "white";
 				body.style.backgroundColor = "black";
 				button.style.border = "solid 1px white";
 				button.style.color = "white";
+				button2.style.border = "solid 1px white";
+				button2.style.color = "white";
 			} else if(!isWhite) {
 				isWhite = !isWhite;
 				body.style.color = "black";
 				body.style.backgroundColor = "white";
 				button.style.border = "solid 1px black";
 				button.style.color = "black";
+				button2.style.border = "solid 1px black";
+				button2.style.color = "black";
 			}
-			document.getElementById("article").innerHTML = parse(xmlHttp.responseText);
 		}
 		
-		function id(string) {
-			var finished = "";
-			for(var i = 0; i < string.length; i++) {
-				if(string[i] == " ") {
-					finished += "_";
-				} else if(string[i] == "'") {
-					finished += "";
-				} else if(string[i] == ",") {
-					finished += "";
-				} else {
-					finished += string[i];
-				}
+		function languageChange() {
+			var button = document.getElementById("changeBtn");
+			var button2 = document.getElementById("languageBtn");
+			var info = document.getElementById("info");
+			if(language == "english") {
+				language = "russian"
+				button.innerHTML = "Поменять тему";
+				button2.innerHTML = "EN";
+				info.innerHTML = `Эндера это вселенная. Не наша, конечно же, но это вселенная в моем уме. Вселенная которую я создаю. Вселенная в которой даже самые странные истории могут оживиться. Это моя вселенная и я приглашаю вас почитать о ней. Я пишу главы, прямо как в книгах, который повествуют о разных темах. Вы слышали о Чудо-Лесе? Или как мы почти взорвали наше Солнце? Или как мы спасли нашу планету в последний момент? Если вы заинтересованы, тогда <a href="view/render.html?src=Ch1&lng=rus">добро пожаловать</a>.`;
+			} else if(language == "russian") {
+				language = "english";
+				button.innerHTML = "Change theme";
+				button2.innerHTML = "RU";
+				info.innerHTML = `Endera is a universe. Not ours, of course, but it is a universe in my mind. A universe which I build. A universe where even the weirdest stories can happen. It is my universe, and I welcome you to read about it. I write chapters, just like in a book, which tell you about different topics. Do you know what a wonder forest is? Or how we almost blew up the Sun? Or how we saved our home planet at the last possible moment? If you're interested, then <a href="view/render.html?src=Ch1&lng=eng">go ahead</a>.`;
 			}
-			return finished;
 		}
 	</script>
 </html>
