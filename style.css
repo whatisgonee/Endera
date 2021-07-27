@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro&display=swap');
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.change {
+	border: solid 1px white;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 120px;
+	height: 30px;
+	float: right;
+	white-space: nowrap;
+	margin-left: 8px;
+}
+
+a {
+	color: inherit;
+}
+
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
