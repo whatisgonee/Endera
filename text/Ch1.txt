@@ -1,33 +1,59 @@
 ===
-Chapter II: Actions have consequences
+Chapter I: A Brief History
 ---
-In this chapter, we're going back on Earth. Let's see how things are going.
-
----
-
-*It's kinda hot*
----
-
-Whew, it's pretty hot in here don't you guys think? Almost like all this pollution, cars, agriculture, electricity and factories contribute to the greenhouse gases. But that can't happen, can it? We can do whatever we want, actions don't have consequences. Right?
-
-The year is 2021, the temperatures globally are rising. Heatwaves and extreme weather is becoming the new standard. Humanity only now realizes that they have to act now. In 2022, a research group from Australia discovered a new fungi. A fungi that can destroy plastic. This discovery relaunched some older projects on making a way to dispose plastic safely, and together with researches from all over the world, J. Auntsie created a project called See Clean Sea. SCS's goal was to clean the oceans and seas from plastic by releasing enzymes, produced by fungi. This lead to a much more cleaner seas and oceans and healthier marine life, though it had an impact on ecosystem. The enzymes also destroyed some of the plankton and dead fish, which caused a scarcity of food underwater, but it was fixed by manually putting plankton and other microorganisms. It was the start of a new era.
-
-The year is 2025, four years after the SCS project was launched. Now we have to solve a new problem - global warming. This time, the solution won't be as easy as it was with SCS. First, we have to reduce the amount of greenhouses we produce. Then, we have to remove the already released CO2 out of the atmosphere. It's just two steps, but these two steps are much more complicated than they look like. The first ever machine that was able to suck out the greenhouse gases, and then store them in containers, was invented in 2026, and later was mass produced to start the cleaning of our atmosphere. The amount of these machines was enormous, since they had to cover our annual CO2 income and also slowly remove the old one from the air. The project was semi successful, due to the constant increase in the production and release of the CO2 and other gases, but it did help us by giving more time to come up with a new idea and make that idea come to life. And we had a plan.
-
-On the 12th of December, 2026, the United Nations approved the International Green Project or IGP for short. The IGP was aimed to switch 50% of infrastructure to green energy in every country. The deadline was set at the 12th of December, 2031 - 5 years. The UN also ruled that developed countries must help third world and poor countries financially and technologically. Of course, not everyone followed this project, but most countries started using green energy, including nuclear since it is also much cleaner than the fossils. This greatly reduced our contribution to global warming, but there was still much ahead.
+In this chapter, we're going to talk about the history of our world, especially, the journey from polluting and killing our home planet, to a space empire, which we live in. 
 
 ---
 
-*Need for Green*
+*The Moon*
 ---
 
-We need to convert all of our energy to clean one. How do we do that? That's an enormous task! But humanity always liked challenges.
+It was a very difficult, yet exciting path to becoming a space empire. It all started in 20th July, 1969, when the first man landed on the Moon. The Moon means a lot to us, it is our playground, where we can test and develop new technology. Because of the Moon, we managed to colonise Mars without too many casualties. Let's go through the history of the Moon.
 
-It's 2028! Happy New Year! But, why is it not snowing? Welp, time to sell dry globes without the snow. Humanity is on the edge of a global catastrophe and it needs to act fast. The International Green Project is still going on, but that's not enough. We need to restore the damaged ecosystems, but unfortunately, the big, bad corporations don't want to do it. So the EU made them. On the 11th of January, 2028, the EU ruled that every corporation that operates inside and outside of Europe, has to pay a tax for every square kilometer of their land that is used for factories and storages. By collecting this tax, the EU started replanting forests, restoring sea shores and other ecosystems. Slowly, the amount of CO2 was being reduced. 
 
-Is that all? No! Cars are getting BANNED! Yes, you heard it right, we're banning cars! People will complain, but UK started to slowly ban cars in the year of 2028. They're making roads more bus-friendly, increasing the bus rate and raising taxes on cars. This method will become a popular strategy on withdrawal from personal vehicles in many countries.
+In 2045, the USA, together with Russia, China and the UK, decided to build a moon base. The plan was to create a small base for the first colonisers, which would arrive in 2055. It will have a storage, containing food, oxygen, water, and other equipment, bedrooms, where the colonisers will temporarily live, kitchen and a gym. The base will be used as a temporary shelter for researches, who will be staying on Moon for a few days. The project started in May, 2045, and was finished, as planned, in September, 2054, after almost a decade. The base was called 'Small Steps'. It will later become the first ever permanent moon base, where researches, engineers and astronauts will live. It was the first step to exploring and colonising our solar system. 
 
-Humanity is finally releasing that _actions have consequences_ and is setting itself on a great path.
+
+In 2078, NASA decided to make a moon station, an automatic station which will receive and launch spaceships from the Moon to Earth, and vice versa. The project was planned to finish in 2083, but because of the budget cuts, it was finished after nearly a decade, in 2085. The station, which is now known as The Launcher, was first used to slow down automatic ships, which delivered food and water to the inhabitants on the Moon, and then launch them back to Earth. This scheme required less fuel, since ships only had to get to the Launcher, and then slow down when approaching Earth. The project was a success, and NASA built another Launcher on Earth, with the same purpose. It is known as L2 (Launcher 2).
+
+
+In 2103, the moon base expanded rapidly, covering more and more territory on the Moon. It started building its own infrastructure, like mining iron, magnesium, and other metal, which were quite rare on Earth. Small Steps declared their independence in 2117, when they started exporting minerals to Earth. The population mainly consisted of highly trained specialist, like botanist, physicist, astronomers, engineers and biologist. They laid the first brick into the Moon we know today. They developed infrastructure, which started producing food, water and oxygen, independently from Earth. Soon enough, rich people started moving to the Moon. It became the first ever country outside Earth's atmosphere. 
+
+
+This concludes the history of the Moon of late 21st century to early 22nd. Humanity was slowly maturing and getting out of its lullaby. But the great challenge was still ahead. Our ancestors will soon encounter another problem, and this time, it can destroy everything we built.
+
+---
+
+*The Asteroid, or how we nearly died*
+---
+
+It was the year 2119, a few years after Small Steps, which renamed itself into Monorio in 2118, declared its independence, a new threat appeared. An asteroid. At first, it looked just like all the other ones, slowly orbiting the Sun. NASA gave it a name of 1094 A64 when it first observed it, but the media called it simple, The Asteroid. A64, is a large, rocky asteroid, that was floating in space, when suddenly, another, much larger asteroid, hit it, changing its course. A64 started flying towards us, so NASA decided to calculate its trajectory. Only then, we realised that A64 is flying towards the Moon. It wouldn't be very dangerous, if A64 wasn't going to hit the Moon's Launcher and then destroy the communication centre. Of course, Small Steps was built with the intention to withstand hits like these, since the Moon doesn't have any atmosphere, so asteroids and meteoroids don't burn in the upper layers like on Earth. But A64 was so large, that it could destroy the communication block, with the antenna, completely. This would leave Monorio alone, unable to contact Earth. It would also mean that ships would not be able to fly from the Moon, since the Launcher will also be destroyed in the process. 
+
+Monorio, together with NASA, started thinking. The easiest way to avoid this dangerous situation, is to change the asteroids trajectory, so it would hit another, empty, part of the Moon. Small Steps started building a rocket, which, theoretically, will change the asteroids trajectory, by exploding near it. What Monorio didn't count, is that A64 was mainly made of rock, so it didn't withstand the explosion, dividing into smaller pieces. A rain of rocks stroke the Moon, destroying, not only the Launcher and the communication centre, but other vital buildings, like the storage and the greenhouse. This left the Moon with nothing. They had no food, no equipment and no communication. This incident lead us build more secure interplanetary bases in the future. 
+
+The inhabitants of Small Steps, however, did not die. It was a tough project, but NASA was able to quickly build an old fashioned rocket, which used much more fuel, to carry some food and oxygen to the Moon. The rocket was called Carrier-1, and was used multiple times to carry stocks, including equipment, oxygen, food and materials to rebuild the Launcher and other compartments. It also evacuated unnecessary people, like botanist and researches for the time being, while Small Steps was being repaired. 
+
+This incident almost destroyed our first moon base, and gave us a warning, so we would be ready the next time it happens.
+
+---
+
+*Mars is here*
+---
+
+It's the beginning of a new era, and humans are flying to Mars. The year is 2145, and it looks like an impossible mission. But we already have experience in colonising. Of course, Mars is a harsh, deadly planet, filled with carbon dioxide, but humans always liked challenges. Whether it's flying to the Moon, or colonising Mars. 
+
+The first ship, which was called MM-1, standing for Moon Mars-1, took off from the Moon's launching pad in 12th June, 2145. It was boosted by the Launcher and started the flight. The MM-1 flew for 264 days, and landed on Mars on 3rd March, 2146. The MM-1 didn't carry any people, since it's main purpose was to deliver rovers and materials to build a simple underground shelter. For minimal costs, MM-1 was designed to be disassembled on Mars, and then reused for the shelter. And so, the first ever human made base was built on Mars, which is now known as 'New Era'.
+
+During later years, Small Steps sent more rockets to Mars, which produced bigger shelter for when humans will start to inhabit it. Robots also created a filtering compartment, which slowly started to suck the CO2 out of the atmosphere, and then store it underground for later use. This expansion laid the foundation for the 'Mars is here' - a project to, not only colonise, but also terraform Mars to look more like Earth. This project is still going on till this day, since terraforming a planet is much harder than it actually looks. We may never see the fruits of our labour, but we'll leave the future generations more than just a generator. 
+
+We'll talk more about New Era and the difficulties we had to overcome to start colonising Mars.
+
+---
+
+*There's still more*
+---
+
+You're probably wondering, "How much is there?", and I will answer you: "A lot". There's still so much more to talk about, but this chapter is getting bigger and bigger. It's supposed to give you a short and brief history of Endera. We'll talk in detail about some of the most fascinating and wonderful stories of this world, like how we started using antimatter as a fuel, and nearly destroyed the whole universe, or about a small blackhole, which once appeared in one laboratory, that almost destroyed our home planet. Remember that this is just the beginning of an exciting adventure and I hope you will go on with me till the end.
 
 ---
 
@@ -36,6 +62,4 @@ Humanity is finally releasing that _actions have consequences_ and is setting it
 +=+
 
 {Copyright© whatisgonee 2021}
-[!Next chapter →](https://whatisgonee.github.io/endera/portal.html?src=Ch3&lng=eng)
-+=+
-[!← Previous chapter](https://whatisgonee.github.io/endera/portal.html?src=Ch2&lng=eng)
+[Next Chapter →](https://whatisgonee.github.io/endera/portal.html?src=Ch2&lng=eng)
